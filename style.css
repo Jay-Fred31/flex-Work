@@ -1,0 +1,101 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+     font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+     
+}
+
+.blue-signup {
+    margin-left: auto;
+    margin-right: 100px;
+    border: 5px solid white;
+    background-color: rgb(43, 122, 226);
+    padding: 10px 60px;
+    border-radius: 40px;
+    color: honeydew;
+    text-align: center;
+    line-height: 30px;
+    font-size: .8em;    
+    
+}
+
+.menu {
+
+    margin-right: 50px;
+    margin-left: 30px;
+    font-weight: 750;
+     
+}
+
+.page-grey {
+    background-color: rgb(243, 242, 242);
+    margin: 0;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-left: 200px;
+    
+}
+
+.body-item {
+    text-align: center;
+     padding-top: 80px;
+}
+  
+
+.body-item > h2 {
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.body-item > p, span {
+    color: rgb(128, 128, 128);
+    line-height: 10px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.headset > img {
+    padding-right: 200px;
+    align-items: center;
+    width: 150px;   
+    
+}
+
+.headset > p {
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+button {
+    background-color: rgb(43, 122, 226);
+    line-height: 30px;
+    border: none;
+    padding: 1px 45px;
+    color: honeydew;
+    
+}
+
+button:hover {
+    background-color: rgb(63, 105, 160);
+}
+
+.blue-signup:hover {
+     background-color: rgb(63, 105, 160);
+}
+
+.menu:hover {
+    color: rgb(194, 194, 194);
+}
